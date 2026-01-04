@@ -18,6 +18,7 @@ public class MainClass
     public static readonly string buildTime = "8:25 PM";
     public static string? sdcard = SdClass.DetectRemovableDrive;
     public static readonly string wiiLinkPatcherUrl = "https://patcher.wiilink24.com";
+    //public static readonly string wiiLinkPatcherUrl = "https://salty-mat.github.io";
     ////////////////////
 
     //// Setup Info ////

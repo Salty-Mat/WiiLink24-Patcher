@@ -200,7 +200,8 @@ public class PatchClass
 
     public static void DownloadPatch(string folderName, string patchInput, string patchOutput, string channelName)
     {
-        string patchUrl = $"{MainClass.wiiLinkPatcherUrl}/{folderName.ToLower()}/{patchInput}";
+        //string patchUrl = $"{MainClass.wiiLinkPatcherUrl}/{folderName.ToLower()}/{patchInput}";
+        string patchUrl = $"http://127.0.0.1:5500/{folderName.ToLower()}/{patchInput}";
         string patchDestinationPath = Path.Join(MainClass.tempDir, "Patches", folderName, patchOutput);
 
         if (MainClass.DEBUG_MODE)
